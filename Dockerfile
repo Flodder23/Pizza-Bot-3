@@ -6,4 +6,4 @@ RUN npm install
 
 CMD node deploy-commands
 
-ENTRYPOINT node index
+CMD node index
