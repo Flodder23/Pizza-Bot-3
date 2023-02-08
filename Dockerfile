@@ -4,6 +4,4 @@ COPY . .
 
 RUN npm install
 
-CMD node deploy-commands
-
-CMD node index
+CMD node deploy-commands && node index
